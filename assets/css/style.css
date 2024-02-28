@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 90px;
+    background-color: rgb(1, 107, 10);
+}
+
+nav .logo {
+    width: 70px;
+    position: relative;
+}
+
+nav .logo h3 {
+    margin: 0;
+    color: #fff;
+    position: relative;
+    top: -10px;
+}
+
+nav .logo img {
+    width: 100px;
+    position: relative;
+    top: 0px;
+    left: -20px;
+    margin: 0;
+}
+
+nav .menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .menu ul a {
+    color: #fff;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+nav .menu ul a:hover {
+    border-bottom: #fff solid 2px;
+    padding-bottom: 7px;
+}
+
+nav .right .notification {
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+nav .right .notification a {
+    color: #fff;
+}
+
+nav .right .notification .bell {
+    position: relative;
+}
+
+nav .right .notification .red {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 15px;
+}
+
+.hero .top {
+    height: 70vh;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.hero .top .left {
+    padding: 70px 40px;
+    width: 50%;
+}
+
+.hero .top .left .small p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero .top .left .small i {
+    background-color: rgb(1, 107, 10);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.hero .top .left h2 {
+    font-size: 45px;
+}
+
+.hero .top .left span {
+    color: rgb(1, 107, 10);
+    font-size: 40px;
+}
+
+.hero .top .left p {
+    margin-top: 30px;
+}
+
+.hero .top .right {
+    padding: 70px 40px;
+    width: 50%;
+}
+
+.hero .top .right img {
+    width: 100%;
+}
+
+.hero .top .btn {
+    display: flex;
+    margin-top: 20px;
+}
+
+.hero .top .btn .a {
+    padding: 10px 35px;
+    margin-right: 20px;
+    background-color: rgb(1, 107, 10);
+    color: #fff;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.hero .top .btn .a i {
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.hero .top .btn .a:hover {
+    background-color: rgb(1, 107, 10, .9);
+}
+
+.hero .top .btn .b {
+    padding: 10px 35px;
+    margin-right: 20px;
+    color: rgb(1, 107, 10);
+    border: solid 2px rgb(1, 107, 10);
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.hero .top .btn .b:hover {
+    padding: 15px 45px;
+    margin-right: 20px;
+    background-color: rgb(1, 107, 10, .8);
+    color: #fff;
+    margin-top: 10px;
+    border: solid 2px rgb(1, 107, 10, .6);
+}
+
+.links .top {
+    width: 100%;
+}
+
+.hero .top .left .small {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: auto;
+}
+
+.hero .top .left .small p {
+    margin-right: 20px;
+}
+
+.hero .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 70%;
+}
+
+.hero .bottom .parent {
+    background-color: rgb(1, 107, 10, .5);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 15px 70px 15px 20px;
+}
+
+.hero .bottom .parent .box-a i {
+    margin-right: 10px;
+    background-color: rgb(1, 107, 10);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.hero .bottom .a {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+}
